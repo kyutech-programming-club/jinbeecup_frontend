@@ -20,7 +20,7 @@ class _FieldTagState extends State<FieldTag> {
           color: ColorConstants.textColor,
         ),
         child: DropdownButton(
-          items: [
+          items: const [
             DropdownMenuItem(
               child: Text(' Web'),
               value: 'web',
