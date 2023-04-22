@@ -62,7 +62,10 @@ class EventDetailPage extends StatelessWidget {
               onPressed: () {},
               child: Text(
                 'チームを作る',
-                style: TextStyle(color: ColorConstants.textColor),
+                style: TextStyle(
+                  color: ColorConstants.textColor,
+                  fontSize: 24,
+                ),
               ),
             ),
             SingleChildScrollView(
