@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:jinbee/constant/color_constant.dart';
-import 'package:jinbee/pages/event/add_event_page.dart';
+import 'package:jinbee/pages/development/compornent/add_event_page.dart';
 
 class AddButton extends StatelessWidget {
   const AddButton({super.key});
