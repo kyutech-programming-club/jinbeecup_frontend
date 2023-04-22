@@ -38,6 +38,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   table_calendar: ^3.0.9
   flutter_calendar_carousel: ^2.4.2
+  flutter_auth: ^0.0.1
+  google_sign_in: ^6.1.0
 
 dev_dependencies:
   flutter_test:
