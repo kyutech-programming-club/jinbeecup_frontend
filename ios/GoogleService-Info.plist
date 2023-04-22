@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>252864888845-47di0nvg306t8e42qi7jcbl2s6b8snrp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.252864888845-47di0nvg306t8e42qi7jcbl2s6b8snrp</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>252864888845-dj9gvfgrvnhe8kgc8dm6vh63mh6cmd9k.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDBww2iiKQRiuIUyk9fV1OGlQazkMi2m98</string>
+	<key>GCM_SENDER_ID</key>
+	<string>252864888845</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>jinbee.app</string>
+	<key>PROJECT_ID</key>
+	<string>jinbee-cup</string>
+	<key>STORAGE_BUCKET</key>
+	<string>jinbee-cup.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:252864888845:ios:f488a488ce00a00ebbd544</string>
+</dict>
+</plist>
