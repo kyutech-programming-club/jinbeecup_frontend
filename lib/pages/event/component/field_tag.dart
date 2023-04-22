@@ -22,20 +22,20 @@ class _FieldTagState extends State<FieldTag> {
         child: DropdownButton(
           items: const [
             DropdownMenuItem(
-              child: Text(' Web'),
               value: 'web',
+              child: Text(' Web'),
             ),
             DropdownMenuItem(
-              child: Text(' ゲーム'),
               value: 'game',
+              child: Text(' ゲーム'),
             ),
             DropdownMenuItem(
-              child: Text(' アプリ'),
               value: 'app',
+              child: Text(' アプリ'),
             ),
             DropdownMenuItem(
-              child: Text(' その他'),
               value: 'other',
+              child: Text(' その他'),
             ),
           ],
           onChanged: (String? value) {
