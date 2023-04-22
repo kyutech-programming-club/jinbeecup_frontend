@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:jinbee/constant/color_constant.dart';
-import 'package:jinbee/pages/event/component/add_button.dart';
 import 'package:jinbee/pages/event/component/event_card.dart';
 
 class EventPage extends StatelessWidget {
@@ -8,18 +7,25 @@ class EventPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: ColorConstants.backgroundColor,
-      appBar: AppBar(
+    return WillPopScope(
+      onWillPop: () async => false,
+      child: Scaffold(
         backgroundColor: ColorConstants.backgroundColor,
-        title: const Text('event'),
+        appBar: AppBar(
+          backgroundColor: ColorConstants.backgroundColor,
+          title: const Text('event'),
+          automaticallyImplyLeading: false,
+        ),
+        body: Center(
+          child: SingleChildScrollView(
+            child: Column(
+              children: const [
+                EventCard(),
+              ],
+            ),
+          ),
+        ),
       ),
-      body:  Row(
-        children: const [
-          EventCard(),
-        ],
-      ),
-      floatingActionButton: const AddButton(),
     );
   }
 }
