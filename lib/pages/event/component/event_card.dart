@@ -14,47 +14,56 @@ class EventCard extends StatelessWidget {
       },
       child: SizedBox(
         height: 200,
-        width: 200,
+        width: 360,
         child: Card(
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(8),
           ),
           color: ColorConstants.textColor,
-          child: Column(
-            children: [
-              const SizedBox(
-                height: 8,
-              ),
-              const Text(
-                'ジンベエカップ',
-                style: TextStyle(
-                  fontSize: 24,
-                  fontFamily: 'bold',
+          child: Center(
+            child: Column(
+              children: [
+                const SizedBox(
+                  height: 8,
                 ),
-              ),
-              const Text('ハックツハッカソン'),
-              const Text('4月22日〜23日'),
-              Padding(
-                padding: const EdgeInsets.only(
-                  left: 16.0,
-                  right: 8.0,
+                const Text(
+                  'ジンベエカップ',
+                  style: TextStyle(
+                    fontSize: 32,
+                    fontFamily: 'bold',
+                  ),
                 ),
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.location_on,
-                      color: ColorConstants.accentColor,
+                const Text(
+                  'ハックツハッカソン',
+                  style: TextStyle(fontSize: 24),
+                ),
+                const Text(
+                  '4月22日〜23日',
+                  style: TextStyle(fontSize: 24),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(
+                    left: 64,
+                  ),
+                  child: Center(
+                    child: Row(
+                      children: [
+                        Icon(
+                          Icons.location_on,
+                          color: ColorConstants.accentColor,
+                        ),
+                        const Text(
+                          'エンジニアカフェ',
+                          style: TextStyle(
+                            fontSize: 24,
+                          ),
+                        )
+                      ],
                     ),
-                    const Text(
-                      'エンジニアカフェ',
-                      style: TextStyle(
-                        fontSize: 16,
-                      ),
-                    )
-                  ],
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
